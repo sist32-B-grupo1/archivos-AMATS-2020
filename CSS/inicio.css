@@ -1,0 +1,23 @@
+body
+{
+	background: #343749;
+	color: white;
+}
+
+h1
+{
+	font-family: 'gisha';
+	font-size: 20px;
+}
+
+img
+{
+ height: 120px;
+ width: 120px;
+ border-radius: 50%;
+}
+
+a
+{
+	color: white;
+}

@@ -1,0 +1,80 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #343749;
+	color: #343749;
+	font-family: 'gisha';
+}
+
+
+
+.login-box
+{
+	width: 320px;
+	height: 450px;
+	background: #fcfaf1;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login-box .logo
+{
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ position: absolute;
+ top: -50px;
+ left: 35%;
+}
+
+.login-box h3
+{
+	margin: 0;
+	padding: 0 0 15px;
+}
+
+.login-box label
+{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #343749;
+	font-size: 16px;
+}
+
+.login-box button{
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background: #fe3686;
+	color: white;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+
+a{
+	color: #343749;
+}

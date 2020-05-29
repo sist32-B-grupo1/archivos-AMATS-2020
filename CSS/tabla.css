@@ -1,0 +1,16 @@
+.diseño table{
+	background: #fcfaf1;
+	width: 50%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.diseño thead{
+	background-color: #cfb82b;
+	border-bottom: solid 5px #cfb82b;
+	color: white;
+}
+
+.diseño th, td{
+	padding: 10px;
+}
+

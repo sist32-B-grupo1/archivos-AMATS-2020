@@ -1,0 +1,23 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+	background: #343749;
+}
+
+.container .card{
+  width: 250px;
+  height: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background: #fcfaf1;
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25s;
+  float: center;
+}
+
+
+
+
+

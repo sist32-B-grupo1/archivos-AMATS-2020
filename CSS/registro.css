@@ -1,0 +1,44 @@
+.registro-box{
+	width: 300px;
+	height: 400px;
+	background-color: #fcfaf1;
+	top: 100%;
+	left: 50%;
+	position: center;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	text-align: left;
+}
+
+.registro-box input{
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.registro-box select{
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.registro-box input[type="text"], .registro-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #343749;
+	font-size: 16px;
+}
+
+.registro-box button{
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background: #fe3686;
+	color: white;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
