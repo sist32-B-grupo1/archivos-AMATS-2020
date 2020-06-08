@@ -10,15 +10,23 @@ class BaseDatos{
 
 public function __construct(){
 
-$this->conexion=new mysqli($this->servidor, $this->usuario, $this->contrasena, "contolbd") or die(mysql_error());
-        
+$this->conexion=new mysqli($this->servidor, $this->usuario, $this->contrasena, "contolbd") or die(mysql_error());   
     }
 
+    //funcion para mostrar datos
+
+    public function mostrar($tabla){
+
+        $resul=$this->conexion->query("SELECT * FROM $tabla") or die($this->conexion->error);
+        return $resul->fetch_all(MYSQLI_ASSOC);
+        return false;
+        
+    }
        
     //funcion para insertar a las tablas
     
     public function insertar($tabla, $campo){
-        $resul = $this->conexion->query("INSERT INTO $tablas VALUES ($campo)") or die($this->conexion->error);
+        $resul = $this->conexion->query("INSERT INTO $tabla VALUES ($campo)") or die($this->conexion->error);
     if($resul)
     echo "Se agrego con exito";
         return true;
@@ -64,7 +72,7 @@ $this->conexion=new mysqli($this->servidor, $this->usuario, $this->contrasena, "
    
     //funcion para buscar con parametros de sql
   
-    public function busquedaparametro($datos){
+    public function busquedalibre($datos){
         $resul = $this->conexion->query($datos) or die($this->conexion->error);
             return $resul->fetch_all(MYSQLI_ASSOC);
         return false;  
