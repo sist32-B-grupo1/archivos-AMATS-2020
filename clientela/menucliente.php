@@ -21,12 +21,11 @@
         <br>
     			<img src="../fotos/logo.jpg"><br>
                 <h1>Menú</h1>
-    		
-    			<li><a href="indexcliente.php">Inicio</a></li>
+    		<li><a href="indexcliente.php">Inicio</a></li>
     			<li><a href="">Servicios</a></li>
     			<li><a href="">Citas</a></li>
-    			<li><a href="">Perfil</a></li>
-    			<li><a href="">Cerrar sesion</a></li>
+                <li><a href="">Catalogo</a></li>
+    			<li><a href="../include/cerrarsesion.php">Cerrar sesion</a></li>
     		</ul>
     </div>
 
